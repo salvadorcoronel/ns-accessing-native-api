@@ -1,40 +1,24 @@
-# nativescript-yourplugin
+# Accessing native API throught JS
 
-Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
+## Demo app
 
-Then describe what's the purpose of your plugin. 
-
-In case you develop UI plugin, this is where you can add some screenshots.
-
-## (Optional) Prerequisites / Requirements
-
-Describe the prerequisites that the user need to have installed before using your plugin. See [nativescript-firebase plugin](https://github.com/eddyverbruggen/nativescript-plugin-firebase) for example.
-
-## Installation
-
-Describe your plugin installation steps. Ideally it would be something like:
+If you want a quickstart, clone the repo, then:
 
 ```javascript
-tns plugin add nativescript-yourplugin
+$ git clone https://github.com/salvadorcoronel/ns-accessing-native-api.git
+$ cd ns-accessing-native-api/src
+$ npm run demo-angular.ios
+$ npm run demo-angular.android
 ```
 
-## Usage 
+## Example 1:
+In this example we send values from JS Application Layer to the native world and we do a basic operation in the native world and return the result to JS through a nativescript plugin.
 
-Describe any usage specifics for your plugin. Give examples for Android, iOS, Angular if needed. See [nativescript-drop-down](https://www.npmjs.com/package/nativescript-drop-down) for example.
-	
-	```javascript
-    Usage code snippets here
-    ```)
+## Example 2:
+In this example we show a basic native snackbar accessing Native APIs through Javascript.  
 
-## API
 
-Describe your plugin methods and properties here. See [nativescript-feedback](https://github.com/EddyVerbruggen/nativescript-feedback) for example.
-    
-| Property | Default | Description |
-| --- | --- | --- |
-| some property | property default value | property description, default values, etc.. |
-| another property | property default value | property description, default values, etc.. |
-    
-## License
+<br>
 
-Apache License Version 2.0, January 2004
+<img width="300" src="docs/ns-accessing-native-api.png">
+
