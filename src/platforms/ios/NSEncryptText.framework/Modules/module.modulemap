@@ -1,0 +1,11 @@
+framework module NSEncryptText {
+  umbrella header "NSEncryptText.h"
+
+  export *
+  module * { export * }
+}
+
+module NSEncryptText.Swift {
+    header "NSEncryptText-Swift.h"
+    requires objc
+}

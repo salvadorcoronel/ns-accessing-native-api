@@ -1,0 +1,15 @@
+<ActionBar>
+    <Label text="NativeScript Plugin Example"></Label>
+</ActionBar>
+
+<StackLayout>
+    <!-- Add your page content here -->
+    <Label class="h1 text-center m-t-10" text="Example 1"></Label>
+    <Label class="h3 p-10 text-center font-weight-bold"text="In this example we send values from JS Application Layer to the native world and we do a basic operation in the native world and return the result to JS through a nativescript plugin." textWrap="true"></Label>
+    <Label class="h2 text-center m-t-5" [text]="cypherText"></Label>
+    <Button class="-primary" text="Show names" (tap)="showNames()"></Button>
+
+    <Label class="h1 text-center m-t-10" text="Example 2"></Label>
+    <Label class="h3 p-10 text-center font-weight-bold"text="In this example we show a basic native snackbar accessing Native APIs through Javascript." textWrap="true"></Label>
+    <Button class="-primary" text="Show Snackbar" (tap)="showSnackbar()"></Button>
+</StackLayout>
